@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="img/letra-w.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Wallysson</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
+            <a href="#">
+                <img src="img/foto-logo.jpg" width="64" height="auto" class="d-inline-block align-text-top logo">
+            </a>
+            <a class="navbar-brand" href="#">Portfólio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Projetos
+                        </a>
+                        <div class="dropdown-menu navbar-dark bg-white" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item " href="paginas/projetos-html.html">HTML e CSS</a>
+                            <a class="dropdown-item" href="paginas/projetos-react.html">React JS</a>
+                            <a class="dropdown-item" href="#">...</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Contato
+                        </a>
+                        <div class="dropdown-menu navbar-dark bg-white" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item " href="paginas/contanto.html">Contato</a>
+                            <a class="dropdown-item" href="https://github.com/WallyssonSousa">Git Hub</a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/wallyssonsousa/">Linkedin</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/sobre-mim.html">Sobre mim</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid container-banner img-fluid">
+        <h1 id="efeito-maquina" class="text-light">Bem-vindo ao meu portfólio</h1>
+    </section>
+
+
+    <section class="container-fluid container--resumo text-light" data-aos="fade-right">
+        <h1>Um breve resumo</h1>
+        <div class="row container--resumo-texto">
+            <p>
+                Olá, me chamo Wallysson, tenho 17 anos, moro em São Paulo. Atuo como desenvolver
+                web e, também, desenvolvo aplicativos mobile, além de mexer com bancos de dados... atualmente, faço
+                curso técnico em desenvolvimento de sistemas na ETEC Paulistano
+            </p>
+            <a href="paginas/sobre-mim.html" class="btn btn-outline-light">Saiba mais</a>
+
+        </div>
+    </section>
+
+    <section class="container-fluid container--habilidades text-light" data-aos="fade-right">
+        <h1>Habilidades</h1>
+        <div class="row container--habilidades-cards" id="card">
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/html-5.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    HTML
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/css-3.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    CSS
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/js.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Java Script
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/bootstrap.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Bootstrap
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/React-js.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    React JS
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/react-native.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    React Native
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/typescript.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Type Script
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/node-js.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Node js
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/java.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Java
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/python.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    Python
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/php.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    PHP
+                </p>
+            </div>
+            <div class="card-element">
+                <figure>
+                    <img src="../img/icons-linguagens/mysql.png" class="rounded card-element-image">
+                </figure>
+                <p class="fs-4">
+                    MySql
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid container--projetos text-light" data-aos="fade-right">
+        <h1>Projetos</h1>
+        <div class="container-card">
+            <div class="card">
+                <img src="img/capas-projetos/blog-vingadores.png">
+                <div class="card-info">
+                    <h3>Blog dos Vingadores</h3>
+                    <p>Feito com React Js e Styled-Components</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/analise-bitcoin.png">
+                <div class="card-info">
+                    <h3>Analise Bitcoin</h3>
+                    <p>Feito com React Js, consumindo API de criptomoedas</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/clone-sportify.png">
+                <div class="card-info">
+                    <h3>Clone-Sportify</h3>
+                    <p>Feito com React Js</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/organo.png">
+                <div class="card-info">
+                    <h3>Organo</h3>
+                    <p>Feito com React Js para o curso na Alura</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/guia-de-livros.png">
+                <div class="card-info">
+                    <h3>Guia de Livros</h3>
+                    <p>Feito com HTML e CSS</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/servidor-de-senhas.png">
+                <div class="card-info">
+                    <h3>Servidor de Senhas</h3>
+                    <p>Feito com HTML e CSS</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/osmor.png">
+                <div class="card-info">
+                    <h3>Osmor</h3>
+                    <p>Feito com HTML, CSS e Bootstrap</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/capas-projetos/guia-de-museus.png">
+                <div class="card-info">
+                    <h3>Guia Museus</h3>
+                    <p>Feito com React e ReactBoostrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid container--redes-sociais text-light">
+        <h1>Rede Sociais</h1>
+        <div class="cards--redes-sociais">
+            <div class="card--social">
+                <img src="img/icons-rede-sociais/o-email.png">
+                <p>wallysson.dev@gmail.com</p>
+            </div>
+            <div class="card--social">
+                <img src="img/icons-rede-sociais/github.png">
+                <p>@WallyssonSousa</p>
+            </div>
+            <div class="card--social">
+                <img src="img/icons-rede-sociais/linkedin.png">
+                <p>@wallyssonsousa</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>
